@@ -1,0 +1,54 @@
+/* Education Section - Distinct styling with purple theme */
+#education {
+    background: var(--dark);
+}
+
+#education .section-title::after {
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+}
+
+#education .experience-timeline::before {
+    background: linear-gradient(to bottom, #9b59b6, #8e44ad);
+}
+
+#education .marker-dot {
+    border-color: #9b59b6;
+}
+
+#education .marker-dot::before {
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+}
+
+#education .experience-item:hover .marker-dot {
+    box-shadow: 0 0 20px rgba(155, 89, 182, 0.5);
+}
+
+#education .marker-line {
+    background: linear-gradient(to bottom, #9b59b6, rgba(155, 89, 182, 0.2));
+}
+
+#education .experience-card {
+    background: linear-gradient(135deg, rgba(20, 14, 39, 0.9), rgba(40, 25, 60, 0.7));
+    border: 1px solid rgba(155, 89, 182, 0.15);
+}
+
+#education .experience-card::before {
+    background: linear-gradient(90deg, #9b59b6, #8e44ad);
+}
+
+#education .experience-card:hover {
+    border-color: rgba(155, 89, 182, 0.4);
+    box-shadow: 0 20px 50px rgba(155, 89, 182, 0.15);
+}
+
+#education .experience-date {
+    color: #9b59b6;
+}
+
+#education .title-row i {
+    color: #9b59b6;
+}
+
+#education .responsibilities li::before {
+    color: #9b59b6;
+}

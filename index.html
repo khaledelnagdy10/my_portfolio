@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaled Elnagdy - Flutter Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="education-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">KHALED ELNAGDY</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Hi, I'm Khaled Elnagdy">Hi, I'm Khaled Elnagdy</h1>
+                <p class="typewriter">Flutter Developer</p>
+                <p class="hero-description">
+                    Passionate Flutter developer with solid understanding of programming basics and OOP. 
+                    Creating seamless, responsive mobile applications with focus on functionality and user experience.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="images/Khaled-Elnagdy-MAR26.CV.pdf" download class="btn btn-secondary">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/khaledelnagdy10" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/khaled-elnagdy-2982a7276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:khaledelnagdy2@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+201050522480"><i class="fas fa-phone"></i></a>
+                    <a href="https://wa.me/message/Q3N4PANHESJLI1"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a passionate Flutter developer and recent Computer Science graduate from Modern Academy in Maadi 
+                        with a solid understanding of programming basics and object-oriented programming (OOP).
+                    </p>
+                    <p>
+                        With hands-on experience in Flutter and Dart, I focus on creating seamless, responsive mobile applications. 
+                        My academic projects emphasized both functionality and user experience, and I thrive in collaborative environments.
+                    </p>
+                    <p>
+                        Currently working as Shipping & Data Entry Officer at Ezz Steel while pursuing my passion for mobile development. 
+                        Eager to learn and stay updated with industry trends.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2023</h3>
+                            <p>Graduate</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            
+            <h3 class="skills-subtitle">Technical Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Flutter</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-android"></i>
+                    <h3>Dart</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Firebase</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>REST APIs</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>MVVM & Clean Architecture</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git & GitHub</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <h3>State Management</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Stripe Payment</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>OCR & Text Detection</h3>
+                </div>
+            </div>
+
+            <h3 class="skills-subtitle" style="margin-top: 50px;">Soft Skills</h3>
+            <div class="soft-skills">
+                <span class="soft-skill-tag">Problem Solving</span>
+                <span class="soft-skill-tag">Communication</span>
+                <span class="soft-skill-tag">Fast Learner</span>
+                <span class="soft-skill-tag">Team Work</span>
+                <span class="soft-skill-tag">Analytical Thinking</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                    </div>
+                    <div class="certification-content">
+                        <h3>Complete Flutter & Dart Development Course</h3>
+                        <p>Comprehensive Flutter and Dart development course covering fundamentals, widgets, state management, and real-world app development.</p>
+                        <a href="images/Complete Flutter & Dart Development Course.pdf" target="_blank" class="btn btn-small">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                    </div>
+                    <div class="certification-content">
+                        <h3>Flutter Advanced Course - Bloc and MVVM Pattern</h3>
+                        <p>Advanced Flutter course focusing on BLoC pattern and MVVM architecture for building scalable and maintainable applications.</p>
+                        <a href="images/Flutter Advanced Course Bloc and MVVM Pattern.pdf" target="_blank" class="btn btn-small">View Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                    </div>
+                    <div class="certification-content">
+                        <h3>Clean Architecture in Flutter</h3>
+                        <p>Advanced Flutter architecture pattern certification covering clean architecture principles, dependency injection, and scalable app design.</p>
+                        <a href="images/Clean Architecture in Flutter.pdf" target="_blank" class="btn btn-small">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                
+                <!-- Experience Item 1: Current Work -->
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="experience-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2023 – Present</span>
+                            </div>
+                            <span class="experience-badge work">Work</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="title-row">
+                                <i class="fas fa-briefcase"></i>
+                                <h3>Shipping & Data Entry Officer</h3>
+                            </div>
+                            <h4 class="company"><i class="fas fa-building"></i> Ezz Steel - Suez Plant / Dekheila Branch</h4>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Suez, Egypt</p>
+                            <ul class="responsibilities">
+                                <li>Managing the dispatch and shipping of steel products from Suez plant to Dekheila branch</li>
+                                <li>Coordinating with drivers to ensure accurate and timely loading of vehicles</li>
+                                <li>Handling daily entry of production data into Excel (serial numbers, steel bar diameters, production dates, warehouse locations)</li>
+                                <li>Maintaining up-to-date inventory records and collaborating with data entry team for accuracy and real-time tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2: Fitness Trainer -->
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="experience-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>January 2020 – October 2024</span>
+                            </div>
+                            <span class="experience-badge work">Work</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="title-row">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Fitness Trainer</h3>
+                            </div>
+                            <h4 class="company"><i class="fas fa-certificate"></i> Certified Personal Trainer from NASM</h4>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Egypt</p>
+                            <ul class="responsibilities">
+                                <li>Delivered personalized training programs based on clients' goals (fat loss, muscle gain, performance improvement)</li>
+                                <li>Applied advanced knowledge of anatomy, biomechanics, physiology, and program design</li>
+                                <li>Conducted fitness assessments and movement analysis</li>
+                                <li>Provided client consultation and applied sales techniques to increase membership and PT packages</li>
+                            </ul>
+                            <div class="education-highlights">
+                                <span><i class="fas fa-location-dot"></i> Inspire Gym</span>
+                                <span><i class="fas fa-location-dot"></i> Gold's Gym</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="experience">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="experience-timeline">
+                
+                <!-- Education Item 1 -->
+                <div class="experience-item">
+                    <div class="experience-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="experience-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>2019 – 2023</span>
+                            </div>
+                            <span class="experience-badge education">Education</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="title-row">
+                                <i class="fas fa-graduation-cap"></i>
+                                <h3>Bachelor's Degree in Computer Science</h3>
+                            </div>
+                            <h4 class="company"><i class="fas fa-university"></i> Modern Academy in Maadi</h4>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</p>
+                            <p class="education-description">Graduated with solid foundation in programming, OOP, and software development principles.</p>
+                            <div class="education-highlights">
+                                <span><i class="fas fa-star"></i> Computer Science</span>
+                                <span><i class="fas fa-star"></i> Programming</span>
+                                <span><i class="fas fa-star"></i> OOP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1: GYM App -->
+<div class="project-card" data-gallery="gym">
+                    <div class="project-image" id="gym">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-small">View Gallery</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>GYM App</h3>
+                            <span class="project-badge graduation">Graduation Project</span>
+                        </div>
+                        <p>Enables users to register as trainers or trainees to connect, view evaluations, track progress, and access pricing.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Authentication</span>
+                            <span>State Management</span>
+                            <span>REST API</span>
+                            <span>Stripe</span>
+                            <span>Clean Architecture</span>
+                            <span>SOLID</span>
+                        </div>
+                        <a href="https://github.com/khaledelnagdy10/gym-ap-ap-ap.git" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: E-commerce App -->
+<div class="project-card" data-gallery="ecommerce">
+                    <div class="project-image" id="e-commerce">
+<div class="project-overlay">
+                            <a href="#" class="btn btn-small" onclick="openEcommerceModal(event)">View Gallery</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce App</h3>
+                        <p>Complete online shopping application with product catalog, cart, and checkout functionality. Click "View Gallery" to see all product images vertically.</p>
+                        <div class="project-tags" id="koko">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Authentication</span>
+                            <span>State Management</span>
+                            <span>REST API</span>
+                            <span>Stripe</span>
+                            <span>Clean Architecture</span>
+                            <span>SOLID</span>
+                        </div>
+                        <a href="https://github.com/khaledelnagdy10/e-commerce.git" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Project 3: Uber App -->
+                <!-- <div class="project-card">
+                    <div class="project-image" id="uber"> 
+
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-small">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Uber App</h3>
+                            <span class="project-badge training">Training Project</span>
+                        </div>
+                        <p>Ride-sharing application clone with maps integration and real-time tracking.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Authentication</span>
+                            <span>State Management</span>
+                            <span>REST API</span>
+                            <span>Stripe</span>
+                            <span>Clean Architecture</span>
+                            <span>SOLID</span>
+                            <span>Maps</span>
+                            <span>Real-time</span>
+                        </div>
+                        <div class="view-in-github" id="e-Commerce">
+                            <a href="https://github.com/Neotin695/uber_user_app" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+                <!-- Project 4: ID Checker -->
+<div class="project-card" data-gallery="idchecker">
+                    <div class="project-image" id="idChecker">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-small" onclick="openIdCheckerModal(event)">View Gallery</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ID Checker</h3>
+                        <p>Extract text from ID cards and documents using OCR and text detection technology.</p>
+                        <div class="project-tags" id="soso">
+                            <span>Flutter</span>
+                            <span>Python</span>
+                            <span>Clean Architecture</span>
+                            <span>OCR</span>
+                            <span>ML Kit Recognition</span>
+                            <span>ML Kit Scanner</span>
+                            <span>AI Model</span>
+                            <a href="https://github.com/khaledelnagdy10/id_checker/tree/main/flutter_id_checker" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- Project 5: Books Store -->
+<div class="project-card" data-gallery="bookstore">
+                    <div class="project-image" id="bookStore">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-small" onclick="openBookStoreModal(event)">View Gallery</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Books Store App</h3>
+                        <p>Online bookstore with browse, search, and purchase functionality. Click to see screenshots & videos in phone mockup.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>State Management</span>
+                            <span>REST API</span> 
+                            <span>Clean Architecture</span>
+                            <span>SOLID</span>
+                        </div>
+                        <a href="https://github.com/khaledelnagdy10/Bookly_app.git" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Books Store Gallery Grid (Hidden Toggle)
+                <div id="bookStoreGallery" style="display: none; grid-column: 1 / -1; margin: 20px 0; padding: 30px; background: linear-gradient(135deg, var(--darker), var(--dark)); border-radius: 20px; border: 2px solid rgba(0,212,255,0.2);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                        <h3 style="font-size: 24px; margin: 0;">📚 Books Store App Gallery</h3>
+                        <button onclick="toggleBookStoreGallery()" style="padding: 10px 20px; background: var(--primary); color: white; border: none; border-radius: 25px; cursor: pointer;">Close Gallery</button>
+                    </div>
+                    <div class="products-grid">
+                        <div class="product-container">
+                            <video src="Books Store/WhatsApp Video 2026-03-15 at 11.44.30 PM.mp4" muted loop preload="metadata" playsinline class="product-image"></video>
+                            <div class="product-overlay">
+                                <a href="#" onclick="openBookStoreModal(event); return false;" class="btn">Phone View</a>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <img src="Books Store/WhatsApp Image 2026-03-15 at 11.44.30 PM (1).jpeg" alt="Books Store Screen 1" class="product-image">
+                            <div class="product-overlay">
+                                <a href="#" onclick="openBookStoreModal(event); return false;" class="btn">Phone View</a>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <img src="Books Store/WhatsApp Image 2026-03-15 at 11.44.30 PM.jpeg" alt="Books Store Screen 2" class="product-image">
+                            <div class="product-overlay">
+                                <a href="#" onclick="openBookStoreModal(event); return false;" class="btn">Phone View</a>
+                            </div>
+                        </div>
+                        <div class="product-container">
+                            <video src="Books Store/WhatsApp Video 2026-03-15 at 11.44.31 PM.mp4" muted loop preload="metadata" playsinline class="product-image"></video>
+                            <div class="product-overlay">
+                                <a href="#" onclick="openBookStoreModal(event); return false;" class="btn">Phone View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Project 6: Weather App -->
+<div class="project-card" data-gallery="weather">
+                    <div class="project-image" id="weatherApp">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-small">View Gallery</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather information app with forecast and location services.</p>
+                        <div class="project-tags" id="popo">
+                            <span>Flutter</span>
+                            <span>State Management</span>
+                            <span>API</span>
+                            <span>Location</span>
+                            <a href="https://github.com/khaledelnagdy10/weather_app.git" class="project-link"><i class="fab fa-github"></i> View on GitHub</a>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <!-- Small Projects Grid -->
+                <div class="small-projects">
+                    <h3 class="small-projects-title">Additional Projects</h3>
+                    <div class="small-projects-grid">
+                        <div class="small-project-card">
+                            <i class="fas fa-clock"></i>
+                            <h4>Timer App</h4>
+                        </div>
+                        <div class="small-project-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Points Counter</h4>
+                        </div>
+                        <div class="small-project-card">
+                            <i class="fas fa-plus-circle"></i>
+                            <h4>Counter App</h4>
+                        </div>
+                        <div class="small-project-card">
+                            <i class="fas fa-comments"></i>
+                            <h4>Chat App</h4>
+                        </div>
+                        <div class="small-project-card">
+                            <i class="fas fa-sticky-note"></i>
+                            <h4>Notes App</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>khaledelnagdy2@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+20 105 052 2480</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Suez, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Status</h4>
+                            <p>Available for Opportunities</p>
+                        </div>
+                    </div>
+                </div>
+  
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Khaled Elnagdy. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/khaledelnagdy10" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/khaled-elnagdy-2982a7276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:khaledelnagdy2@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+201050522480"><i class="fas fa-phone"></i></a>
+                <a href="https://wa.me/message/Q3N4PANHESJLI1"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleMenu() {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        }
+        
+        // Close menu when clicking on a nav link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+                document.querySelector('.hamburger').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
