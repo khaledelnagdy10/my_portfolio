@@ -1,11 +1,26 @@
-# Task Progress: Beautify GitHub Buttons
+# Gallery Edge-to-Edge Images/Videos Task - COMPLETE
 
-**Approved Plan:**
-- Enhance `.project-link` buttons in style.css with gradient, hover effects, shadows matching site theme.
+## Changes Made
 
-**Steps:**
-- [x] 1. Create TODO.md for tracking
-- [x] 2. Edit style.css to add .project-link styles
-- [x] 3. Test changes in browser
-- [x] 4. Complete task
+- [x] Removed all framing (padding, border, background, shadow, radius) from .gallery-image and .product-image
+- [x] Removed hover shadow from .gallery-image:hover
+- [x] Added .product-image full definition with no framing
+- [x] Reduced grid gaps/padding
+- [x] Removed border-radius from gallery video/img
 
+## Test Commands
+
+```
+open index.html
+```
+
+Click "View Gallery" buttons to test modals.
+
+```
+open ecommerce-gallery.html
+open id-checker-gallery.html
+```
+
+Images/videos now edge-to-edge, no hover shadows.
+
+**Task complete - no surrounding body on hover or normal state.**
